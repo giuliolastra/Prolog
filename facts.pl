@@ -1,3 +1,7 @@
+#############
+#	FACTS	#
+#############
+
 # Prolog is composed by query, fact and rules. This are examples or facts.
 
 animal(cat).

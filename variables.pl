@@ -1,3 +1,7 @@
+#################
+#	VARIABLES	#
+#################
+
 # For Prolog a variable is a string that starts with an uppercase letter or with a lowerscore.
 # They can be used in rules.
 
