@@ -1,6 +1,6 @@
-/************************************/
-/*	TRANSLATING A LIST OF NUMBERS	*/
-/************************************/
+/***********************************/
+/*  TRANSLATING A LIST OF NUMBERS  */
+/***********************************/
 
 /* Given a list of numbers (e.g. [one, three, eight, zero]) translate them in italian. */
 
