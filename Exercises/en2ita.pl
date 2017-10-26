@@ -31,7 +31,7 @@ reverseList([], Acc, Acc).
 
 /* We translate the head of the English list and we use it as head of the Accumulator list after translating it in italian */
 en2ita([Word|English], Accumulator, Italian) :- en2ita(English, [Parola|Accumulator], Italian), translation(Word, Parola).
-en2ita([],Accumulator, Accumulator).
+en2ita([], Accumulator, Accumulator).
 
 /* We reverse the result of the translation */
 en2ita(English, Italian) :- en2ita(English, [], X), reverseList(X,[], Italian).
